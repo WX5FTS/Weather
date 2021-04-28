@@ -8,7 +8,7 @@ with open('process_alerts.txt') as processed_alerts_file:
 
 for line in processed_alerts_data.
 
-d = feedparser.parse("https://alerts.weather.gov/cap/us.php?x=0")
+d = feedparser.parse("https://alerts.weather.gov/cap/us.php?x=1")
 entries_count = len(d.entries)
 #print (entries_count)
 if entries_count == 0:
